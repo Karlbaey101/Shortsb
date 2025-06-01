@@ -75,7 +75,8 @@
 
     
 
-<meta name="generator" content="Hexo 7.3.0"></head>
+<meta name="generator" content="Hexo 7.3.0"><link rel="stylesheet" href="/css/prism-duotone-forest.css" type="text/css">
+<link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"></head>
     
     
         <style>
@@ -215,7 +216,20 @@
         
             
         
-        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><div class=".article-gallery"></div>
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><div class=".article-gallery"><h2 id="友链"><a href="#友链" class="headerlink" title="友链"></a>友链</h2><p>欢迎添加友链！在申请添加前请确保您已经添加了本站的友链！</p>
+<p>申请请提供：站点名称、站点链接、站点描述。</p>
+<p>本站友链信息如下，申请友链前请先添加本站信息：</p>
+<pre class="line-numbers language-language-markdown"><code class="language-language-markdown">
+网站名：卡尔白的小作品
+网站URL：s.karlbaey.top
+简介：比博客短，比推文长
+站长：卡尔白~
+站长头像：https://karlbaey.top/images/Fundamental/avatar.png
+本站 favicon：https://s.karlbaey.top/img/avat.jpg
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>以下是本站的友链：</p>
+<p><a target="_blank" rel="noopener" href="https://nekoa.day/">NekoaBlog</a> NK1D –neko</p>
+</div>
     </div>
 
     <div class="post-meta">
@@ -247,6 +261,33 @@
     </div>
     
         
+
+    <div id="waline"></div>
+    <script type="module"  >
+        import { init } from 'https://npm.elemecdn.com/hexo-theme-a4@latest/source/js/waline.mjs'; 
+        function loadWaline() {
+            init({
+                el: '#waline',
+                serverURL: 'https://sc.karlbaey.top',
+                lang: 'zh-CN',
+                dark: 'body[class~="dark-mode"]',
+                requiredMeta: ['nick','mail'], // cannot customize by theme config, change it yourself
+                search: false, // 禁止表情包搜索
+                reaction: false, // 对文章打分
+                pageview: false, // 浏览量统计
+                comment: false, // 评论数统计
+
+                locale: {
+                    placeholder: '留下你的评论，让我知道你的看法。', 
+                    sofa: ''
+                },
+            });
+            
+        }
+        window.addEventListener('DOMContentLoaded', loadWaline);
+    </script>
+
+
 
     
     
