@@ -46,19 +46,11 @@ source/
 &lt;p&gt;&lt;a href=&#34;https://chat.deepseek.com/a/chat/s/6d06260e-8116-4f87-92d6-fcc01f1972d4&#34;&gt;原对话链接🔗&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;不得已而思其次，我发现 A4 的作品存档并不依赖于 Hexo 本身，而是作者自己写了代码用来列出全部的作品页（也就是列举出形如 &lt;code&gt;s.karlbaey.top/shorts/...&lt;/code&gt; 这样的页面）。所以我大胆地删掉了 &lt;code&gt;hexo-generator-index&lt;/code&gt; 这个包，再给根目录做一个重定向，就可以抵达我真正的首页 &lt;code&gt;/master&lt;/code&gt; 了。&lt;/p&gt;
-&lt;pre class=&#34;line-numbers language-language-html&#34;&gt;&lt;code class=&#34;language-language-html&#34;&gt;
-&lt;!DOCTYPE html&gt;
-&lt;!-- 放在网站根目录，重定向至 /master --&gt;
-&lt;html&gt;
-&lt;body&gt;
-    &lt;script&gt;
-        window.location.href = &#34;/master&#34;;
-    &lt;/script&gt;
-    &lt;p&gt;如果不跳转，请按&lt;a target=&#34;_blank&#34; rel=&#34;noopener&#34; href=&#34;/master&#34; title=&#34;快点我！&#34;&gt;这里&lt;/a&gt;&lt;/p&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-&lt;span aria-hidden=&#34;true&#34; class=&#34;line-numbers-rows&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;a href=&#34;https://pan.moe/f/6JJc1/%E9%87%8D%E5%AE%9A%E5%90%91%E4%BB%A3%E7%A0%81.png&#34; class=&#34;gallery-item&#34; style=&#34;box-shadow: none;&#34;&gt; &lt;img src=&#34;https://pan.moe/f/6JJc1/%E9%87%8D%E5%AE%9A%E5%90%91%E4%BB%A3%E7%A0%81.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;问题完美解决~&lt;/p&gt;
+&lt;p&gt;编辑：突然发现部署之后点进这一片小作品，会立刻跳回主页。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://pan.moe/f/KrWi4/%E9%97%AA%E9%80%80%E5%9B%9Emaster.gif&#34; class=&#34;gallery-item&#34; style=&#34;box-shadow: none;&#34;&gt; &lt;img src=&#34;https://pan.moe/f/KrWi4/%E9%97%AA%E9%80%80%E5%9B%9Emaster.gif&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;其实原因很简单：上面展示重定向代码的时候，Hexo 自动把嵌入在代码块里的重定向代码识别出来了，这就导致了闪退回首页。烂透了……&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;&lt;strong&gt;(The end)&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt; ]]></description>
         </item>

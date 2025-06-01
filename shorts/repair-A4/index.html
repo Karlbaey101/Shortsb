@@ -227,7 +227,7 @@
                     
                         &nbsp; | &nbsp;
                     
-                     <span>字数总计：679</span>
+                     <span>字数总计：745</span>
                 
                 
                     
@@ -282,19 +282,11 @@ source/
 <p><a target="_blank" rel="noopener" href="https://chat.deepseek.com/a/chat/s/6d06260e-8116-4f87-92d6-fcc01f1972d4">原对话链接🔗</a></p>
 </blockquote>
 <p>不得已而思其次，我发现 A4 的作品存档并不依赖于 Hexo 本身，而是作者自己写了代码用来列出全部的作品页（也就是列举出形如 <code>s.karlbaey.top/shorts/...</code> 这样的页面）。所以我大胆地删掉了 <code>hexo-generator-index</code> 这个包，再给根目录做一个重定向，就可以抵达我真正的首页 <code>/master</code> 了。</p>
-<pre class="line-numbers language-language-html"><code class="language-language-html">
-<!DOCTYPE html>
-<!-- 放在网站根目录，重定向至 /master -->
-<html>
-<body>
-    <script>
-        window.location.href = "/master";
-    </script>
-    <p>如果不跳转，请按<a target="_blank" rel="noopener" href="/master" title="快点我！">这里</a></p>
-</body>
-</html>
-<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p><a target="_blank" rel="noopener" href="https://pan.moe/f/6JJc1/%E9%87%8D%E5%AE%9A%E5%90%91%E4%BB%A3%E7%A0%81.png" class="gallery-item" style="box-shadow: none;"> <img src="https://pan.moe/f/6JJc1/%E9%87%8D%E5%AE%9A%E5%90%91%E4%BB%A3%E7%A0%81.png"></a></p>
 <p>问题完美解决~</p>
+<p>编辑：突然发现部署之后点进这一片小作品，会立刻跳回主页。</p>
+<p><a target="_blank" rel="noopener" href="https://pan.moe/f/KrWi4/%E9%97%AA%E9%80%80%E5%9B%9Emaster.gif" class="gallery-item" style="box-shadow: none;"> <img src="https://pan.moe/f/KrWi4/%E9%97%AA%E9%80%80%E5%9B%9Emaster.gif"></a></p>
+<p>其实原因很简单：上面展示重定向代码的时候，Hexo 自动把嵌入在代码块里的重定向代码识别出来了，这就导致了闪退回首页。烂透了……</p>
 <p><em><strong>(The end)</strong></em></p>
 </div>
     </div>
