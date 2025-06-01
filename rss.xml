@@ -5,10 +5,63 @@
         <link>https://s.karlbaey.top</link>
         <description></description>
         <language>zh-CN</language>
-        <pubDate>Sun, 01 Jun 2025 15:06:46 +0800</pubDate>
-        <lastBuildDate>Sun, 01 Jun 2025 15:06:46 +0800</lastBuildDate>
+        <pubDate>Mon, 02 Jun 2025 01:54:43 +0800</pubDate>
+        <lastBuildDate>Mon, 02 Jun 2025 01:54:43 +0800</lastBuildDate>
+        <category>Hexo</category>
         <category>AI</category>
         <category>图图</category>
+        <item>
+            <guid isPermalink="true">https://s.karlbaey.top/shorts/repair-A4/</guid>
+            <title>修复 A4 主题记录</title>
+            <link>https://s.karlbaey.top/shorts/repair-A4/</link>
+            <category>Hexo</category>
+            <pubDate>Mon, 02 Jun 2025 01:54:43 +0800</pubDate>
+            <description><![CDATA[ &lt;link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&#34;&gt;&lt;div class=&#34;.article-gallery&#34;&gt;&lt;p&gt;这次是一次速修，比刚入门 Hexo 的时候不认识 yaml 怎么写，一个小小的格式错误就耗费了我快半个小时要聪明得多。&lt;a href=&#34;//karlbaey.top/articles/repair-success/&#34;&gt;链接🔗&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;之前在&lt;a href=&#34;/about&#34;&gt;关于页面&lt;/a&gt;就有提到了小作品站用到的主题是 &lt;a href=&#34;https://github.com/HiNinoJay/hexo-theme-A4&#34;&gt;A4&lt;/a&gt;，主要是看重它的简洁，适合我写小作品也适合小伙伴阅读。但是……不出意外地，又出意外了。&lt;/p&gt;
+&lt;p&gt;我兴冲冲地配置好了 &lt;code&gt;_config.yml&lt;/code&gt; 和 &lt;code&gt;_config.a4.yml&lt;/code&gt;，本来按照作者的意思只要在命令行输入 &lt;code&gt;hexo new page index&lt;/code&gt; 就能够自动生成首页了。但是……细心的小伙伴估计也发现了，小作品站的首页并不是根目录，而是 &lt;code&gt;/master&lt;/code&gt;。这又是一个漫长的故事。&lt;/p&gt;
+&lt;p&gt;一开始我的确是以根目录作为首页的，但在我写完第一篇小作品并发表后，问题就诞生了。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;文件架构：&lt;/p&gt;
+&lt;pre class=&#34;line-numbers language-language-txt&#34;&gt;&lt;code class=&#34;language-language-txt&#34;&gt;
+source/
+  |
+  +--...
+  +--index.md
+&lt;span aria-hidden=&#34;true&#34; class=&#34;line-numbers-rows&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;其中，（预计）&lt;code&gt;index.md&lt;/code&gt; 会被渲染成主页。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://pan.moe/f/Xjas1/%E5%9D%8F%E6%8E%89%E7%9A%84s.karlbaey.top%E9%A6%96%E9%A1%B5.jpeg&#34; class=&#34;gallery-item&#34; style=&#34;box-shadow: none;&#34;&gt; &lt;img src=&#34;https://pan.moe/f/Xjas1/%E5%9D%8F%E6%8E%89%E7%9A%84s.karlbaey.top%E9%A6%96%E9%A1%B5.jpeg&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;很明显这是首页被当成一篇小作品解析了，因为有明显的字样“上一篇”“下一篇”，被 Waline 占领我就不知道为什么了。我试着把 &lt;code&gt;index.md&lt;/code&gt; 移动到 &lt;code&gt;/master&lt;/code&gt; 里面，再做重定向，就可以避免这样的问题。但是后来还是被现实打趴下了。Hexo 默认会在首页生成一组最近文章，就像&lt;a href=&#34;//karlbaey.top&#34;&gt;主站&lt;/a&gt;显示的那样，但是我现在不需要啊，如果 Hexo 主动生成了，那反倒会把我提前准备好的重定向页给覆盖了，这明显就不是我想看到的。&lt;/p&gt;
+&lt;p&gt;挺糟心的，而且并没有什么好的解决方案。所以后来问了 DeepSeek，倒是一针见血。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;h3 id=&#34;额外说明&#34;&gt;&lt;a href=&#34;#额外说明&#34; class=&#34;headerlink&#34; title=&#34;额外说明&#34;&gt;&lt;/a&gt;额外说明&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;菜单链接调整&lt;/strong&gt;：如果你希望导航菜单中的 “首页” 指向你的自定义页面，需在主题配置中修改菜单链接为 &lt;code&gt;/&lt;/code&gt;。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;完全禁用默认首页&lt;/strong&gt;：如果不需要 Hexo 生成的博客列表首页，可卸载插件：&lt;/p&gt;
+&lt;pre class=&#34;line-numbers language-language-bash&#34;&gt;&lt;code class=&#34;language-language-bash&#34;&gt;npm uninstall hexo-generator-index --save
+&lt;span aria-hidden=&#34;true&#34; class=&#34;line-numbers-rows&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;按此配置后，Hexo 会完全保留你的自定义 &lt;code&gt;index.html&lt;/code&gt; 并跳过渲染，确保它直接出现在网站根目录。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://chat.deepseek.com/a/chat/s/6d06260e-8116-4f87-92d6-fcc01f1972d4&#34;&gt;原对话链接🔗&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;不得已而思其次，我发现 A4 的作品存档并不依赖于 Hexo 本身，而是作者自己写了代码用来列出全部的作品页（也就是列举出形如 &lt;code&gt;s.karlbaey.top/shorts/...&lt;/code&gt; 这样的页面）。所以我大胆地删掉了 &lt;code&gt;hexo-generator-index&lt;/code&gt; 这个包，再给根目录做一个重定向，就可以抵达我真正的首页 &lt;code&gt;/master&lt;/code&gt; 了。&lt;/p&gt;
+&lt;pre class=&#34;line-numbers language-language-html&#34;&gt;&lt;code class=&#34;language-language-html&#34;&gt;
+&lt;!DOCTYPE html&gt;
+&lt;!-- 放在网站根目录，重定向至 /master --&gt;
+&lt;html&gt;
+&lt;body&gt;
+    &lt;script&gt;
+        window.location.href = &#34;/master&#34;;
+    &lt;/script&gt;
+    &lt;p&gt;如果不跳转，请按&lt;a target=&#34;_blank&#34; rel=&#34;noopener&#34; href=&#34;/master&#34; title=&#34;快点我！&#34;&gt;这里&lt;/a&gt;&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+&lt;span aria-hidden=&#34;true&#34; class=&#34;line-numbers-rows&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;问题完美解决~&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;(The end)&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt; ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">https://s.karlbaey.top/shorts/my-first-short-AI-cover/</guid>
             <title>让 AI 给我做了封面 ——第一篇小作品</title>
@@ -29,7 +82,7 @@
 &lt;p&gt;&lt;a href=&#34;https://pan.moe/f/wRQSz/%E4%BB%85%E4%BE%9B%E7%A4%BA%E4%BE%8B%EF%BC%88%E8%B1%86%E5%8C%85%E5%88%B6%E4%BD%9C%E7%9A%84%E5%B0%81%E9%9D%A2%EF%BC%89.png&#34; class=&#34;gallery-item&#34; style=&#34;box-shadow: none;&#34;&gt; &lt;img src=&#34;https://pan.moe/f/wRQSz/%E4%BB%85%E4%BE%9B%E7%A4%BA%E4%BE%8B%EF%BC%88%E8%B1%86%E5%8C%85%E5%88%B6%E4%BD%9C%E7%9A%84%E5%B0%81%E9%9D%A2%EF%BC%89.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.doubao.com/chat/7446302371625986&#34;&gt;原对话地址🔗&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;看着不知所云，还不如用相对简洁的 GPT。&lt;/p&gt;
-&lt;p&gt;以后的话还是会勤劳更新的，笔耕不辍嘛，不然开这个新网站就没什么意思了。小作品的篇幅我尽量控制在 1000 字以内（比如这一片就是 756 字），那样的话就是最理想的状态了。&lt;/p&gt;
+&lt;p&gt;以后的话还是会勤劳更新的，笔耕不辍嘛，不然开这个新网站就没什么意思了。小作品的篇幅我尽量控制在 1000 字以内，那样的话就是最理想的状态了。&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;&lt;strong&gt;(The end)&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt; ]]></description>
         </item>

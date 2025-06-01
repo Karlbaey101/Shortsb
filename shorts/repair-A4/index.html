@@ -4,7 +4,7 @@
     <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport" />
-    <meta name="description" content="文章" />
+    <meta name="description" content="修复 A4 主题记录" />
     <meta name="hexo-theme-A4" content="v1.9.8" />
     <link rel="alternate icon" type="image/webp" href="/img/avat.jpg">
     <title>Karlbaey&#39;s Shorts</title>
@@ -115,8 +115,8 @@
             
             
             
-                <div class="shadow-drop-2-top paper-main">
-                     
+                <div class="shadow-drop-2-bottom paper-main">
+                    
 
 
 <div class="header">
@@ -163,11 +163,7 @@
             
         
             
-                <li><i>
-                    
-                        <a style="color: #4e7dde;" href="/list/">📰文章</a>
-                    
-                </i></li>
+                <li><a href="/list/">📰文章</a></li>
             
         
             
@@ -196,112 +192,213 @@
         
     </ul>
 </div> 
-                     <div class="archive-list">
-  <ul class="archive">
-      
-
-      <!--文章先按照时间排好序-->
-      
-
-
-      
-      
-
-      
-
-      
-      
-      
-
-      <!--循环遍历文章数组-->
-      
-
-      <!--排序 置顶 文章-->
-      
-
-      <!--先放 置顶 文章-->
-      
-
-      <!--rough-notation风格效果-->
-      
-
-      <!--文章先按照时间排好序-->
-      
-      
-      <!--再放 最近更新 文章-->
-      
-        <li>
-          <span class="year-font-color">
-            <a class="archive-title"  href="/recent-updates/">Recent-Updates</a>
-          </span>
-        </li>
         
+                    
+                    
+
+                    
+                    
+                    
+                    <!--说明是文章post页面-->
+                    
+                        <div class="post-main">
+    
+
+    
         
-          
-          
-          <li>
-            <span class="archive-date">2025/06/02 
-            </span>
-            <div class="archive-main">
-                <a class="archive-title" href="/shorts/repair-A4/">修复 A4 主题记录</a>
+            
+                <div class="post-main-title">
+                    修复 A4 主题记录
+                </div>
+            
+        
+      
+    
+
+    
+
+        
+            <div class="post-head-meta-left">
+        
+                
+                    <span>最近更新：2025-06-02</span> 
+                
+                
+                    
+                        &nbsp; | &nbsp;
+                    
+                     <span>字数总计：679</span>
+                
+                
+                    
+                        &nbsp; | &nbsp;
+                    
+                    <span>阅读估时：2分钟</span>
+                
+                
+                    
+                        &nbsp; | &nbsp;
+                    
+                    <span id="busuanzi_container_page_pv">
+                        阅读量：<span id="busuanzi_value_page_pv"></span>次
+                    </span>
+                
             </div>
-          </li>
-        
-          
-          
-          <li>
-            <span class="archive-date">2025/06/02 
-            </span>
-            <div class="archive-main">
-                <a class="archive-title" href="/shorts/my-first-short-AI-cover/">让 AI 给我做了封面 ——第一篇小作品</a>
-            </div>
-          </li>
-        
-      
+    
 
-      <!--后放 其他 文章-->
-      
+    <div class="post-md">
         
-        <li>
-          <span class="year-font-color">2025[2]
-             <span class="darkmode-ignore">🍃</span> 
-          </span>
-        </li>
+            
+                <ol class="post-toc"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#%E9%A2%9D%E5%A4%96%E8%AF%B4%E6%98%8E"><span class="post-toc-text">额外说明</span></a></li></ol>
+            
         
-        
-          
-          <li>
-            <span class="archive-date">&nbsp;&nbsp;&nbsp;06/02 
-            </span>
-            <div class="archive-main">
-              
-                <a class="archive-title"  href="/categories/Shorts/">
-                  Shorts 
-                </a> | 
-              
-                <a class="archive-title" href="/shorts/repair-A4/">修复 A4 主题记录</a>
-            </div>
-          </li>
-        
-          
-          <li>
-            <span class="archive-date">&nbsp;&nbsp;&nbsp;06/01 
-            </span>
-            <div class="archive-main">
-              
-                <a class="archive-title"  href="/categories/Shorts/">
-                  Shorts 
-                </a> | 
-              
-                <a class="archive-title" href="/shorts/my-first-short-AI-cover/">让 AI 给我做了封面 ——第一篇小作品</a>
-            </div>
-          </li>
-        
-      
-  </ul>
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><div class=".article-gallery"><p>这次是一次速修，比刚入门 Hexo 的时候不认识 yaml 怎么写，一个小小的格式错误就耗费了我快半个小时要聪明得多。<a target="_blank" rel="noopener" href="//karlbaey.top/articles/repair-success/">链接🔗</a></p>
+<p>之前在<a href="/about">关于页面</a>就有提到了小作品站用到的主题是 <a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/hexo-theme-A4">A4</a>，主要是看重它的简洁，适合我写小作品也适合小伙伴阅读。但是……不出意外地，又出意外了。</p>
+<p>我兴冲冲地配置好了 <code>_config.yml</code> 和 <code>_config.a4.yml</code>，本来按照作者的意思只要在命令行输入 <code>hexo new page index</code> 就能够自动生成首页了。但是……细心的小伙伴估计也发现了，小作品站的首页并不是根目录，而是 <code>/master</code>。这又是一个漫长的故事。</p>
+<p>一开始我的确是以根目录作为首页的，但在我写完第一篇小作品并发表后，问题就诞生了。</p>
+<blockquote>
+<p>文件架构：</p>
+<pre class="line-numbers language-language-txt"><code class="language-language-txt">
+source/
+  |
+  +--...
+  +--index.md
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>其中，（预计）<code>index.md</code> 会被渲染成主页。</p>
+</blockquote>
+<p><a target="_blank" rel="noopener" href="https://pan.moe/f/Xjas1/%E5%9D%8F%E6%8E%89%E7%9A%84s.karlbaey.top%E9%A6%96%E9%A1%B5.jpeg" class="gallery-item" style="box-shadow: none;"> <img src="https://pan.moe/f/Xjas1/%E5%9D%8F%E6%8E%89%E7%9A%84s.karlbaey.top%E9%A6%96%E9%A1%B5.jpeg"></a></p>
+<p>很明显这是首页被当成一篇小作品解析了，因为有明显的字样“上一篇”“下一篇”，被 Waline 占领我就不知道为什么了。我试着把 <code>index.md</code> 移动到 <code>/master</code> 里面，再做重定向，就可以避免这样的问题。但是后来还是被现实打趴下了。Hexo 默认会在首页生成一组最近文章，就像<a target="_blank" rel="noopener" href="//karlbaey.top">主站</a>显示的那样，但是我现在不需要啊，如果 Hexo 主动生成了，那反倒会把我提前准备好的重定向页给覆盖了，这明显就不是我想看到的。</p>
+<p>挺糟心的，而且并没有什么好的解决方案。所以后来问了 DeepSeek，倒是一针见血。</p>
+<blockquote>
+<h3 id="额外说明"><a href="#额外说明" class="headerlink" title="额外说明"></a>额外说明</h3><ul>
+<li><p><strong>菜单链接调整</strong>：如果你希望导航菜单中的 “首页” 指向你的自定义页面，需在主题配置中修改菜单链接为 <code>/</code>。</p>
+</li>
+<li><p><strong>完全禁用默认首页</strong>：如果不需要 Hexo 生成的博客列表首页，可卸载插件：</p>
+<pre class="line-numbers language-language-bash"><code class="language-language-bash">npm uninstall hexo-generator-index --save
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+</li>
+</ul>
+<p>按此配置后，Hexo 会完全保留你的自定义 <code>index.html</code> 并跳过渲染，确保它直接出现在网站根目录。</p>
+<p><a target="_blank" rel="noopener" href="https://chat.deepseek.com/a/chat/s/6d06260e-8116-4f87-92d6-fcc01f1972d4">原对话链接🔗</a></p>
+</blockquote>
+<p>不得已而思其次，我发现 A4 的作品存档并不依赖于 Hexo 本身，而是作者自己写了代码用来列出全部的作品页（也就是列举出形如 <code>s.karlbaey.top/shorts/...</code> 这样的页面）。所以我大胆地删掉了 <code>hexo-generator-index</code> 这个包，再给根目录做一个重定向，就可以抵达我真正的首页 <code>/master</code> 了。</p>
+<pre class="line-numbers language-language-html"><code class="language-language-html">
+<!DOCTYPE html>
+<!-- 放在网站根目录，重定向至 /master -->
+<html>
+<body>
+    <script>
+        window.location.href = "/master";
+    </script>
+    <p>如果不跳转，请按<a target="_blank" rel="noopener" href="/master" title="快点我！">这里</a></p>
+</body>
+</html>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>问题完美解决~</p>
+<p><em><strong>(The end)</strong></em></p>
 </div>
-<!--  --> 
-                     <div class="footer">
+    </div>
+
+    <div class="post-meta">
+        <i>
+        
+            <span>2025-06-02</span>
+            
+                <span>该篇文章被 Jerry Karlbaey</span>
+            
+            
+                <span>打上标签:
+                    
+                    
+                        <a href='/tags/Hexo/'>
+                            Hexo
+                        </a>
+                    
+                </span>
+             
+             
+                <span>归为分类:
+                    
+                    
+                        <a href='/categories/Shorts/'>
+                            Shorts
+                        </a>
+                    
+                </span>
+            
+        
+        </i>
+    </div>
+    <br>
+    
+    
+        
+            
+    
+            <div class="post-footer-pre-next">
+                
+
+                
+                    <span class="post-footer-pre-next-last-span-right">下一篇：<a href="/shorts/my-first-short-AI-cover/">让 AI 给我做了封面 ——第一篇小作品</a>
+                    </span>
+                
+            </div>
+    
+        
+    
+
+    
+        
+    <div class="comments-container">
+    <div id="comment-anchor"></div>
+    <div class="comment-area-title">
+         
+    </div>
+    
+        
+
+    <div id="waline"></div>
+    <script type="module"  >
+        import { init } from 'https://npm.elemecdn.com/hexo-theme-a4@latest/source/js/waline.mjs'; 
+        function loadWaline() {
+            init({
+                el: '#waline',
+                serverURL: 'https://sc.karlbaey.top',
+                lang: 'zh-CN',
+                dark: 'body[class~="dark-mode"]',
+                requiredMeta: ['nick','mail'], // cannot customize by theme config, change it yourself
+                search: false, // 禁止表情包搜索
+                reaction: false, // 对文章打分
+                pageview: false, // 浏览量统计
+                comment: false, // 评论数统计
+
+                locale: {
+                    placeholder: '留下你的评论，让我知道你的看法。', 
+                    sofa: ''
+                },
+            });
+            
+        }
+        window.addEventListener('DOMContentLoaded', loadWaline);
+    </script>
+
+
+
+    
+    
+    
+    </div>
+
+
+     
+</div>
+
+
+
+                                      
+                    
+                    
+                    <div class="footer">
     
         <span> 
             © 2025 Jerry Karlbaey 遵循 CC BY-NC-SA 4.0 协议 

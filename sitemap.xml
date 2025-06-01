@@ -2,7 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://s.karlbaey.top/master/index.html</loc>
+    <loc>https://s.karlbaey.top/shorts/repair-A4/</loc>
+    
+    <lastmod>2025-06-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://s.karlbaey.top/about/index.html</loc>
     
     <lastmod>2025-06-01</lastmod>
     
@@ -12,6 +21,15 @@
   
   <url>
     <loc>https://s.karlbaey.top/shorts/my-first-short-AI-cover/</loc>
+    
+    <lastmod>2025-06-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://s.karlbaey.top/master/index.html</loc>
     
     <lastmod>2025-06-01</lastmod>
     
@@ -30,15 +48,6 @@
   
   <url>
     <loc>https://s.karlbaey.top/messages/index.html</loc>
-    
-    <lastmod>2025-06-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://s.karlbaey.top/about/index.html</loc>
     
     <lastmod>2025-06-01</lastmod>
     
@@ -92,6 +101,13 @@
 
   
   <url>
+    <loc>https://s.karlbaey.top/tags/Hexo/</loc>
+    <lastmod>2025-06-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://s.karlbaey.top/tags/AI/</loc>
     <lastmod>2025-06-01</lastmod>
     <changefreq>weekly</changefreq>
@@ -108,7 +124,7 @@
 
   
   <url>
-    <loc>https://s.karlbaey.top/categories/shorts/</loc>
+    <loc>https://s.karlbaey.top/categories/Shorts/</loc>
     <lastmod>2025-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
