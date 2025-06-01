@@ -1,22 +1,16 @@
 <?xml version="1.0"?>
-<rss version="2.0">
-    <channel>
-        <title>Karlbaey&#39;s Shorts</title>
-        <link>https://s.karlbaey.top</link>
-        <description></description>
-        <language>zh-CN</language>
-        <pubDate>Sun, 01 Jun 2025 15:06:46 +0800</pubDate>
-        <lastBuildDate>Sun, 01 Jun 2025 15:06:46 +0800</lastBuildDate>
-        <category>AI</category>
-        <category>图图</category>
-        <item>
-            <guid isPermalink="true">https://s.karlbaey.top/shorts/my-first-short-AI-cover/</guid>
-            <title>让 AI 给我做了封面 ——第一篇小作品</title>
-            <link>https://s.karlbaey.top/shorts/my-first-short-AI-cover/</link>
-            <category>AI</category>
-            <category>图图</category>
-            <pubDate>Sun, 01 Jun 2025 15:06:46 +0800</pubDate>
-            <description><![CDATA[ &lt;link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&#34;&gt;&lt;div class=&#34;.article-gallery&#34;&gt;&lt;p&gt;建好了第二个 Hexo 站点！现在就写一写第一篇小作品吧。&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://s.karlbaey.top</id>
+    <title>Karlbaey&#39;s Shorts • Posts by &#34;shorts&#34; category</title>
+    <link href="https://s.karlbaey.top" />
+    <updated>2025-06-01T07:06:46.000Z</updated>
+    <category term="AI" />
+    <category term="图图" />
+    <entry>
+        <id>https://s.karlbaey.top/shorts/my-first-short-AI-cover/</id>
+        <title>让 AI 给我做了封面 ——第一篇小作品</title>
+        <link rel="alternate" href="https://s.karlbaey.top/shorts/my-first-short-AI-cover/"/>
+        <content type="html">&lt;link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&#34;&gt;&lt;div class=&#34;.article-gallery&#34;&gt;&lt;p&gt;建好了第二个 Hexo 站点！现在就写一写第一篇小作品吧。&lt;/p&gt;
 &lt;p&gt;写完第二篇中篇故事《Nothing Dawn》之后就发现，自己除了写一些长长的中篇作品可以投放到&lt;a href=&#34;//karlbaey.top&#34;&gt;主站&lt;/a&gt;，好像也没有什么可写，更不用说写一篇长长的文字了。要是运气好，就&lt;a href=&#34;https://karlbaey.top/articles/a-simple-phys-problem/&#34;&gt;有一道物理题做做&lt;/a&gt;，也是值得写一篇博客。但是中间在画解题示意图的时候格外折磨。我用的是 &lt;a href=&#34;//draw.io&#34;&gt;draw.io&lt;/a&gt; 来绘制 .png 图片，但是我操作不熟练，光当时画了张第一小题的图解就花了快半个小时，而且画的也不怎么好看。下图就是当时画的。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://pan.moe/f/M4Efn/%E7%89%A9%E7%90%86%E7%BB%98%E5%9B%BE1.png&#34; class=&#34;gallery-item&#34; style=&#34;box-shadow: none;&#34;&gt; &lt;img src=&#34;https://pan.moe/f/M4Efn/%E7%89%A9%E7%90%86%E7%BB%98%E5%9B%BE1.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;所以当时在解第二道题时就直接懒得画了。&lt;/p&gt;
@@ -31,7 +25,9 @@
 &lt;p&gt;看着不知所云，还不如用相对简洁的 GPT。&lt;/p&gt;
 &lt;p&gt;以后的话还是会勤劳更新的，笔耕不辍嘛，不然开这个新网站就没什么意思了。小作品的篇幅我尽量控制在 1000 字以内（比如这一片就是 756 字），那样的话就是最理想的状态了。&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;&lt;strong&gt;(The end)&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;/div&gt; ]]></description>
-        </item>
-    </channel>
-</rss>
+&lt;/div&gt;</content>
+        <category term="AI" />
+        <category term="图图" />
+        <updated>2025-06-01T07:06:46.000Z</updated>
+    </entry>
+</feed>

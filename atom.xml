@@ -3,5 +3,31 @@
     <id>https://s.karlbaey.top</id>
     <title>Karlbaey&#39;s Shorts</title>
     <link href="https://s.karlbaey.top" />
-    <updated>2025-06-01T04:29:07.236Z</updated>
+    <updated>2025-06-01T07:06:46.000Z</updated>
+    <category term="AI" />
+    <category term="图图" />
+    <entry>
+        <id>https://s.karlbaey.top/shorts/my-first-short-AI-cover/</id>
+        <title>让 AI 给我做了封面 ——第一篇小作品</title>
+        <link rel="alternate" href="https://s.karlbaey.top/shorts/my-first-short-AI-cover/"/>
+        <content type="html">&lt;link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&#34;&gt;&lt;div class=&#34;.article-gallery&#34;&gt;&lt;p&gt;建好了第二个 Hexo 站点！现在就写一写第一篇小作品吧。&lt;/p&gt;
+&lt;p&gt;写完第二篇中篇故事《Nothing Dawn》之后就发现，自己除了写一些长长的中篇作品可以投放到&lt;a href=&#34;//karlbaey.top&#34;&gt;主站&lt;/a&gt;，好像也没有什么可写，更不用说写一篇长长的文字了。要是运气好，就&lt;a href=&#34;https://karlbaey.top/articles/a-simple-phys-problem/&#34;&gt;有一道物理题做做&lt;/a&gt;，也是值得写一篇博客。但是中间在画解题示意图的时候格外折磨。我用的是 &lt;a href=&#34;//draw.io&#34;&gt;draw.io&lt;/a&gt; 来绘制 .png 图片，但是我操作不熟练，光当时画了张第一小题的图解就花了快半个小时，而且画的也不怎么好看。下图就是当时画的。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://pan.moe/f/M4Efn/%E7%89%A9%E7%90%86%E7%BB%98%E5%9B%BE1.png&#34; class=&#34;gallery-item&#34; style=&#34;box-shadow: none;&#34;&gt; &lt;img src=&#34;https://pan.moe/f/M4Efn/%E7%89%A9%E7%90%86%E7%BB%98%E5%9B%BE1.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;所以当时在解第二道题时就直接懒得画了。&lt;/p&gt;
+&lt;p&gt;我又有点强迫症，我觉得一篇文&amp;#x2F;字如果没有图就会显得单调，但我非常乏力的图像创作技术快把我折磨疯了。甚至有时会叫骂着为什么这破手不听使唤。我最需要的就是自己创作的中篇作品的封面图（因为其他的图像大多截图就能解决），这又是最考验人的设计功底的。幸好后来接触了 AI 工具，做封面图的时候轻松了不止一个数量级。&lt;/p&gt;
+&lt;p&gt;就比如我让 ChatGPT 给小作品站做的封面图：&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://pan.moe/f/kPXFq/Karlbaey%E2%80%99s_Shorts_Cover.png&#34; class=&#34;gallery-item&#34; style=&#34;box-shadow: none;&#34;&gt; &lt;img src=&#34;https://pan.moe/f/kPXFq/Karlbaey%E2%80%99s_Shorts_Cover.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://chatgpt.com/c/683bf3b4-0558-8005-ad97-5dcf1772f34e&#34;&gt;原对话地址🔗&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;尽管没有用上最先进的 ChatGPT 4o，但是做的也很可以了，我非常满意。还有两篇中篇作品的图，可以到&lt;a href=&#34;/tales&#34;&gt;这个页面&lt;/a&gt;领略领略，同样是由 ChatGPT 生成的，提示词里都让它参考了极简主义风格。可能以后再出品新的中篇作品时都会让 GPT 来给我画了。不是自己不乐意画，只是因为我实在苦于没有合适的创意，把专业的事交给专业的人做才是最好的选择。&lt;/p&gt;
+&lt;p&gt;我也不是没有尝试过国内的几家 AI，但是个人体验最好的 DeepSeek 没有图像生成功能，豆包的水平又实在让人难以恭维：&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://pan.moe/f/wRQSz/%E4%BB%85%E4%BE%9B%E7%A4%BA%E4%BE%8B%EF%BC%88%E8%B1%86%E5%8C%85%E5%88%B6%E4%BD%9C%E7%9A%84%E5%B0%81%E9%9D%A2%EF%BC%89.png&#34; class=&#34;gallery-item&#34; style=&#34;box-shadow: none;&#34;&gt; &lt;img src=&#34;https://pan.moe/f/wRQSz/%E4%BB%85%E4%BE%9B%E7%A4%BA%E4%BE%8B%EF%BC%88%E8%B1%86%E5%8C%85%E5%88%B6%E4%BD%9C%E7%9A%84%E5%B0%81%E9%9D%A2%EF%BC%89.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.doubao.com/chat/7446302371625986&#34;&gt;原对话地址🔗&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;看着不知所云，还不如用相对简洁的 GPT。&lt;/p&gt;
+&lt;p&gt;以后的话还是会勤劳更新的，笔耕不辍嘛，不然开这个新网站就没什么意思了。小作品的篇幅我尽量控制在 1000 字以内（比如这一片就是 756 字），那样的话就是最理想的状态了。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;(The end)&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;</content>
+        <category term="AI" />
+        <category term="图图" />
+        <updated>2025-06-01T07:06:46.000Z</updated>
+    </entry>
 </feed>

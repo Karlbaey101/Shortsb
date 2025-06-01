@@ -4,7 +4,7 @@
     <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport" />
-    <meta name="description" content="Page Not Found" />
+    <meta name="description" content="" />
     <meta name="hexo-theme-A4" content="v1.9.8" />
     <link rel="alternate icon" type="image/webp" href="/img/avat.jpg">
     <title>Karlbaey&#39;s Shorts</title>
@@ -111,32 +111,182 @@
             
             
             
-                <div class="shadow-drop-2-top paper-main">
-                    <div class="post-main">
-    <div class="post-md">
-            <h2>Page not found.</h2>
-            <br>
-            <div style="text-align: center;">
-                <!--这里要如何处理-->
-                
-                    <div class="index-header-line" >
-                        
-                            <div id="hiddenHeaderContentArray" style="display: none;">
-                                
-                                
-                                
-                                    <span>Killing the Beast.</span>
-                                
-                            </div>
-                            <span id="targetSpan" style="font-size: large;"></span>
-                        
-                    </div>
-                
-                <a href="/">Go Back Home</a>
-            </div>
+                <div class="shadow-drop-2-bottom paper-main">
+                    
+
+
+<div class="header">
+    <div class="header-container">
+        <style>
+            .header-img {
+                width: 56px;
+                height: auto;
+                object-fit: cover; /* 保持图片比例 */
+                transition: transform 0.3s ease-in-out; 
+                border-radius: 50%; 
+            }
+            
+            .header-img:hover {
+                animation: rotateAnimation 2s linear infinite; /* 悬停旋转动画 */
+            }
+            @keyframes rotateAnimation {
+                0% {
+                    transform: rotate(0deg);
+                }
+                100% {
+                    transform: rotate(360deg);
+                }
+            }
+            
+        </style>
+        <img 
+            alt="^-^" 
+            cache-control="max-age=86400" 
+            class="header-img" 
+            src="/img/avat.jpg" 
+        />
+        <div class="header-content">
+            <a class="logo" href="/">Karlbaey&#39;s Shorts</a> 
+            <span class="description"></span> 
+        </div>
     </div>
+    
+   
+    <ul class="nav">
+        
+            
+                <li><a href="/master/">首页</a></li>
+            
+        
+            
+                <li><a href="/list/">📰文章</a></li>
+            
+        
+            
+                <li><a href="/tales/">🧶作品</a></li>
+            
+        
+            
+                <li><a href="/about/">🌟关于</a></li>
+            
+        
+            
+                <li><a href="/tags/">🏷️标签</a></li>
+            
+        
+            
+                <li><a href="/categories/">🗃️分类</a></li>
+            
+        
+            
+                <li><a href="/friends/">💞友链</a></li>
+            
+        
+            
+                <li><a href="/messages/">💌留言</a></li>
+            
+        
+    </ul>
+</div> 
+        
+                    
+                    
+
+                    
+                    
+                    
+                    <!--说明是文章post页面-->
+                    
+                        <div class="post-main">
+    
+
+    
+
+    
+
+    <div class="post-md">
+        
+            
+        
+        
+    </div>
+
+    <div class="post-meta">
+        <i>
+        
+        </i>
+    </div>
+    <br>
+    
+    
+        
+            
+    
+            <div class="post-footer-pre-next">
+                
+                    <span>上一篇：<a href='/'></a></span>
+                
+
+                
+                    <span class="post-footer-pre-next-last-span-right">下一篇：<a href="/"></a>
+                    </span>
+                
+            </div>
+    
+        
+    
+
+    
+        
+    <div class="comments-container">
+    <div id="comment-anchor"></div>
+    <div class="comment-area-title">
+         
+    </div>
+    
+        
+
+    <div id="waline"></div>
+    <script type="module"  >
+        import { init } from 'https://npm.elemecdn.com/hexo-theme-a4@latest/source/js/waline.mjs'; 
+        function loadWaline() {
+            init({
+                el: '#waline',
+                serverURL: 'https://sc.karlbaey.top',
+                lang: 'zh-CN',
+                dark: 'body[class~="dark-mode"]',
+                requiredMeta: ['nick','mail'], // cannot customize by theme config, change it yourself
+                search: false, // 禁止表情包搜索
+                reaction: false, // 对文章打分
+                pageview: false, // 浏览量统计
+                comment: false, // 评论数统计
+
+                locale: {
+                    placeholder: '留下你的评论，让我知道你的看法。', 
+                    sofa: ''
+                },
+            });
+            
+        }
+        window.addEventListener('DOMContentLoaded', loadWaline);
+    </script>
+
+
+
+    
+    
+    
+    </div>
+
+
+     
 </div>
- 
+
+
+
+                                      
+                    
+                    
                     <div class="footer">
     
         <span> 
