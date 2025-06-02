@@ -5,11 +5,34 @@
         <link>https://s.karlbaey.top</link>
         <description></description>
         <language>zh-CN</language>
-        <pubDate>Mon, 02 Jun 2025 01:54:43 +0800</pubDate>
-        <lastBuildDate>Mon, 02 Jun 2025 01:54:43 +0800</lastBuildDate>
+        <pubDate>Mon, 02 Jun 2025 15:35:30 +0800</pubDate>
+        <lastBuildDate>Mon, 02 Jun 2025 15:35:30 +0800</lastBuildDate>
+        <category>Java</category>
+        <category>Python</category>
         <category>Hexo</category>
         <category>AI</category>
         <category>图图</category>
+        <item>
+            <guid isPermalink="true">https://s.karlbaey.top/shorts/Java-is-so-hard/</guid>
+            <title>Java好难</title>
+            <link>https://s.karlbaey.top/shorts/Java-is-so-hard/</link>
+            <category>Java</category>
+            <category>Python</category>
+            <pubDate>Mon, 02 Jun 2025 15:35:30 +0800</pubDate>
+            <description><![CDATA[ &lt;link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&#34;&gt;&lt;div class=&#34;.article-gallery&#34;&gt;&lt;p&gt;是这样的，我是 Python3 钉子户兼孝子，以前写 LeetCode 都是用的 Python3 语言，也用的很习惯。&lt;/p&gt;
+&lt;p&gt;但是后来听说 Java 的语句表达比 Python3 优雅许多，就好奇心大发，查着 Java 教程再借助必应修修改改了之前写的 LeetCode1-两数之和。&lt;/p&gt;
+&lt;p&gt;这是我写的 Python3 版本的解法：&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://pan.moe/f/mGRcq/python3-leco1.png&#34; class=&#34;gallery-item&#34; style=&#34;box-shadow: none;&#34;&gt; &lt;img src=&#34;https://pan.moe/f/mGRcq/python3-leco1.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;很好懂吧？难怪大家都说“人生苦短，我用 Python（Life is short. You need Python.）”。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://pan.moe/f/jJQh5/%E4%BA%BA%E7%94%9F%E8%8B%A6%E7%9F%AD%E6%88%91%E7%94%A8python.webp&#34; class=&#34;gallery-item&#34; style=&#34;box-shadow: none;&#34;&gt; &lt;img src=&#34;https://pan.moe/f/jJQh5/%E4%BA%BA%E7%94%9F%E8%8B%A6%E7%9F%AD%E6%88%91%E7%94%A8python.webp&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;中间看了好多教程，包括但不限于菜鸟、廖雪峰、stackoverflow 以至于 CSDN 都用上了，才比较好地修改出了这段代码。逻辑是一模一样的。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://pan.moe/f/QjDSn/java-leco1.png&#34; class=&#34;gallery-item&#34; style=&#34;box-shadow: none;&#34;&gt; &lt;img src=&#34;https://pan.moe/f/QjDSn/java-leco1.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;不得不说，Java 在某些地方确实格外优雅。比如读到任何一行都能知道这一行是在干些什么，而不是像 Python 一样需要结合上下文理解。但是！Java 代码冗余不是一般的厉害，初始化一个哈希表也好，一个数组也好，都要用到关键字 new。作为一个 Python 惯用者来说，用起来实在是糟心。&lt;/p&gt;
+&lt;p&gt;为什么要写这个？因为前两天看到了这个：&lt;a href=&#34;https://www.ruanyifeng.com/blog/2025/05/weekly-issue-350.html&#34;&gt;科技爱好者周刊（第 350 期）：Java 三十周年 - 阮一峰的网络日志&lt;/a&gt;，所以就抱着试试看的心态尝试了一下这而且现在就业的话，会 Java 比会其他种类的语言好找工作一点。上一句是废话，到我参加工作的时候，会再多语言都是假的，AI 行其道才是真的。&lt;/p&gt;
+&lt;p&gt;所以趁着技术埋没人类之前多找找乐子吧，找乐子倒没有必要放着前代程序员们留下的大好素材不用，而去让 AI 帮人动手，这样被找乐子的就是人了。C++ 我一直狠不下心来学，但是 Java 我会学的，折腾一点总比不折腾好。毕竟 Java 的代码读多几次，就觉得味道格外独特。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;(The end)&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt; ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">https://s.karlbaey.top/shorts/repair-A4/</guid>
             <title>修复 A4 主题记录</title>
