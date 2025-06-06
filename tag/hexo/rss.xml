@@ -34,7 +34,7 @@
 &lt;p&gt;&lt;a href=&#34;https://pan.moe/f/rQjC1/%E5%B4%A9%E5%9D%8F%E7%9A%84A4%E9%A6%96%E9%A1%B5.png&#34; class=&#34;gallery-item&#34; style=&#34;box-shadow: none;&#34;&gt; &lt;img src=&#34;https://pan.moe/f/rQjC1/%E5%B4%A9%E5%9D%8F%E7%9A%84A4%E9%A6%96%E9%A1%B5.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;这跟一个文件有关，看到&lt;a href=&#34;https://github.com/HiNinoJay/hexo-theme-A4/blob/main/layout/_partial/footer.ejs&#34;&gt;这里&lt;/a&gt;：&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://pan.moe/f/9Ewh1/A4%E6%9C%89%E8%AF%AF%E4%BB%A3%E7%A0%81.png&#34; class=&#34;gallery-item&#34; style=&#34;box-shadow: none;&#34;&gt; &lt;img src=&#34;https://pan.moe/f/9Ewh1/A4%E6%9C%89%E8%AF%AF%E4%BB%A3%E7%A0%81.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;在这个文件 40 行前后，如果这个 &lt;code&gt;index.html&lt;/code&gt; 前面没有斜杠，就代表它匹配任意一个末尾以 &lt;code&gt;index.html&lt;/code&gt; 结尾的页面。事实上，只要是 Hexo 生成的文章或页面，都是以 &lt;code&gt;index.html&lt;/code&gt; 结尾，只是通常看不到而已。所以，我们需要在这个 &lt;code&gt;index.html&lt;/code&gt; 前加上一斜杠，这样就能正确渲染了。&lt;/p&gt;
+&lt;p&gt;在这个文件 40 行前后，如果这个 &lt;code&gt;index.html&lt;/code&gt; 前面没有斜杠，就代表它匹配任意一个以 &lt;code&gt;index.html&lt;/code&gt; 结尾的页面。事实上，只要是 Hexo 生成的文章或页面，都是以 &lt;code&gt;index.html&lt;/code&gt; 结尾，只是通常看不到而已。所以，我们需要在这个 &lt;code&gt;index.html&lt;/code&gt; 前加上一斜杠，这样就能正确渲染了。&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;如果是 &lt;code&gt;/index.html&lt;/code&gt;，就意味着只匹配 &lt;code&gt;你的域名/&lt;/code&gt;这个页面。这是 URL 的性质决定的。&lt;/p&gt;
 &lt;/blockquote&gt;
