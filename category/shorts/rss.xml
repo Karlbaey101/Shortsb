@@ -12,6 +12,7 @@
         <category>Hexo</category>
         <category>AI</category>
         <category>图图</category>
+        <category>C++</category>
         <item>
             <guid isPermalink="true">https://s.karlbaey.top/shorts/Java-is-so-hard/</guid>
             <title>Java好难</title>
@@ -45,12 +46,8 @@
 &lt;p&gt;一开始我的确是以根目录作为首页的，但在我写完第一篇小作品并发表后，问题就诞生了。&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;文件架构：&lt;/p&gt;
-&lt;pre class=&#34;line-numbers language-language-txt&#34;&gt;&lt;code class=&#34;language-language-txt&#34;&gt;
-source/
-  |
-  +--...
-  +--index.md
-&lt;span aria-hidden=&#34;true&#34; class=&#34;line-numbers-rows&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;figure class=&#34;highlight txt&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;code class=&#34;hljs txt&#34;&gt;&lt;br&gt;source/&lt;br&gt;  |&lt;br&gt;  +--...&lt;br&gt;  +--index.md&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
 &lt;p&gt;其中，（预计）&lt;code&gt;index.md&lt;/code&gt; 会被渲染成主页。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;a href=&#34;https://pan.moe/f/Xjas1/%E5%9D%8F%E6%8E%89%E7%9A%84s.karlbaey.top%E9%A6%96%E9%A1%B5.jpeg&#34; class=&#34;gallery-item&#34; style=&#34;box-shadow: none;&#34;&gt; &lt;img src=&#34;https://pan.moe/f/Xjas1/%E5%9D%8F%E6%8E%89%E7%9A%84s.karlbaey.top%E9%A6%96%E9%A1%B5.jpeg&#34;&gt;&lt;/a&gt;&lt;/p&gt;
@@ -61,9 +58,7 @@ source/
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;菜单链接调整&lt;/strong&gt;：如果你希望导航菜单中的 “首页” 指向你的自定义页面，需在主题配置中修改菜单链接为 &lt;code&gt;/&lt;/code&gt;。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;完全禁用默认首页&lt;/strong&gt;：如果不需要 Hexo 生成的博客列表首页，可卸载插件：&lt;/p&gt;
-&lt;pre class=&#34;line-numbers language-language-bash&#34;&gt;&lt;code class=&#34;language-language-bash&#34;&gt;npm uninstall hexo-generator-index --save
-&lt;span aria-hidden=&#34;true&#34; class=&#34;line-numbers-rows&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;/li&gt;
+  &lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;code class=&#34;hljs bash&#34;&gt;npm uninstall hexo-generator-index --save&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;按此配置后，Hexo 会完全保留你的自定义 &lt;code&gt;index.html&lt;/code&gt; 并跳过渲染，确保它直接出现在网站根目录。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://chat.deepseek.com/a/chat/s/6d06260e-8116-4f87-92d6-fcc01f1972d4&#34;&gt;原对话链接🔗&lt;/a&gt;&lt;/p&gt;

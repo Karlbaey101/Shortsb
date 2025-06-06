@@ -5,13 +5,49 @@
         <link>https://s.karlbaey.top</link>
         <description></description>
         <language>zh-CN</language>
-        <pubDate>Mon, 02 Jun 2025 01:54:43 +0800</pubDate>
-        <lastBuildDate>Mon, 02 Jun 2025 01:54:43 +0800</lastBuildDate>
+        <pubDate>Fri, 06 Jun 2025 22:37:56 +0800</pubDate>
+        <lastBuildDate>Fri, 06 Jun 2025 22:37:56 +0800</lastBuildDate>
         <category>Java</category>
         <category>Python</category>
         <category>Hexo</category>
         <category>AI</category>
         <category>图图</category>
+        <category>C++</category>
+        <item>
+            <guid isPermalink="true">https://s.karlbaey.top/shorts/speedrun-a4/</guid>
+            <title>速通a4</title>
+            <link>https://s.karlbaey.top/shorts/speedrun-a4/</link>
+            <category>Hexo</category>
+            <pubDate>Fri, 06 Jun 2025 22:37:56 +0800</pubDate>
+            <description><![CDATA[ &lt;link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&#34;&gt;&lt;div class=&#34;.article-gallery&#34;&gt;&lt;blockquote&gt;
+&lt;p&gt;背景知识：Hexo 是一款博客框架，以生成文件速度极快，社区生态优良以及主题模板丰富而著名。A4 是 Hexo 的一款主题。这次的速通就是针对 A4 主题进行的。&lt;a href=&#34;https://github.com/HiNinoJay/hexo-theme-A4&#34;&gt;原仓库地址📦&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;安装与调试-config-a4-yml&#34;&gt;&lt;a href=&#34;#安装与调试-config-a4-yml&#34; class=&#34;headerlink&#34; title=&#34;安装与调试  _config.a4.yml&#34;&gt;&lt;/a&gt;安装与调试  _config.a4.yml&lt;/h3&gt;&lt;p&gt;无需多言。&lt;a href=&#34;https://doc.ninojay.top/&#34;&gt;完整教程🔗&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;额外调整&#34;&gt;&lt;a href=&#34;#额外调整&#34; class=&#34;headerlink&#34; title=&#34;额外调整&#34;&gt;&lt;/a&gt;额外调整&lt;/h3&gt;&lt;h4 id=&#34;首页设置&#34;&gt;&lt;a href=&#34;#首页设置&#34; class=&#34;headerlink&#34; title=&#34;首页设置&#34;&gt;&lt;/a&gt;首页设置&lt;/h4&gt;&lt;p&gt;文档里有一行是这样形容的：&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://pan.moe/f/3JoH0/a4%E6%96%87%E6%A1%A3%E6%9C%89%E8%AF%AF%E9%83%A8%E5%88%86.png&#34; class=&#34;gallery-item&#34; style=&#34;box-shadow: none;&#34;&gt; &lt;img src=&#34;https://pan.moe/f/3JoH0/a4%E6%96%87%E6%A1%A3%E6%9C%89%E8%AF%AF%E9%83%A8%E5%88%86.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;但是经我本人调试，如果真的这样做的话，会导致你在 hexo s 生成测试网页后发现 “CANNOT GET &amp;#x2F;”，也就是说，你创建了这个页面等于没有（事实上是有的，它在“你的域名&amp;#x2F;index&amp;#x2F;”这里）。这显然不是我们想要的，所以我们只需要在本地 hexo 文件夹的 source 目录中创建一个 index.md 并把下面这段文字复制进去。&lt;/p&gt;
+&lt;figure class=&#34;highlight markdown&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;code class=&#34;hljs markdown&#34;&gt;---&lt;br&gt;title: index&lt;br&gt;date: &amp;#123;改为你创建的时间&amp;#125;&lt;br&gt;comment: false&lt;br&gt;&lt;span class=&#34;hljs-section&#34;&gt;layout: true&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;hljs-section&#34;&gt;---&lt;/span&gt;&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;p&gt;这样就有了一个需要的主页。&lt;/p&gt;
+&lt;p&gt;同时我建议把 &lt;code&gt;hexo-generator-index&lt;/code&gt; 这个插件删了。这个插件是用在 Hexo 自身创建存档页的，比如大部分 Hexo 博客点进去就是一条一条的文章，就是这个插件在发挥作用。但 A4 不需要，作者已经替我们写好了创建文章列表的代码，如果留着这个插件反而会导致首页炸掉，具体怎样炸请自行测试。&lt;/p&gt;
+&lt;h4 id=&#34;修补首页-bug&#34;&gt;&lt;a href=&#34;#修补首页-bug&#34; class=&#34;headerlink&#34; title=&#34;修补首页 bug&#34;&gt;&lt;/a&gt;修补首页 bug&lt;/h4&gt;&lt;p&gt;按照上面的操作，理论上是可以正常生成首页了，但是有可能发生这种现象：&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://pan.moe/f/rQjC1/%E5%B4%A9%E5%9D%8F%E7%9A%84A4%E9%A6%96%E9%A1%B5.png&#34; class=&#34;gallery-item&#34; style=&#34;box-shadow: none;&#34;&gt; &lt;img src=&#34;https://pan.moe/f/rQjC1/%E5%B4%A9%E5%9D%8F%E7%9A%84A4%E9%A6%96%E9%A1%B5.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;这跟一个文件有关，看到&lt;a href=&#34;https://github.com/HiNinoJay/hexo-theme-A4/blob/main/layout/_partial/footer.ejs&#34;&gt;这里&lt;/a&gt;：&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://pan.moe/f/9Ewh1/A4%E6%9C%89%E8%AF%AF%E4%BB%A3%E7%A0%81.png&#34; class=&#34;gallery-item&#34; style=&#34;box-shadow: none;&#34;&gt; &lt;img src=&#34;https://pan.moe/f/9Ewh1/A4%E6%9C%89%E8%AF%AF%E4%BB%A3%E7%A0%81.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;在这个文件 40 行前后，如果这个 &lt;code&gt;index.html&lt;/code&gt; 前面没有斜杠，就代表它匹配任意一个末尾以 &lt;code&gt;index.html&lt;/code&gt; 结尾的页面。事实上，只要是 Hexo 生成的文章或页面，都是以 &lt;code&gt;index.html&lt;/code&gt; 结尾，只是通常看不到而已。所以，我们需要在这个 &lt;code&gt;index.html&lt;/code&gt; 前加上一斜杠，这样就能正确渲染了。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;如果是 &lt;code&gt;/index.html&lt;/code&gt;，就意味着只匹配 &lt;code&gt;你的域名/&lt;/code&gt;这个页面。这是 URL 的性质决定的。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;修改后，应该是这个样子的。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://pan.moe/f/YK8HD/%E4%BF%AE%E5%A5%BD%E7%9A%84A4%E9%A6%96%E9%A1%B5.png&#34; class=&#34;gallery-item&#34; style=&#34;box-shadow: none;&#34;&gt; &lt;img src=&#34;https://pan.moe/f/YK8HD/%E4%BF%AE%E5%A5%BD%E7%9A%84A4%E9%A6%96%E9%A1%B5.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;我已经针对这个问题提交了 PR，等待作者回复。&lt;/p&gt;
+&lt;h4 id=&#34;修改页脚&#34;&gt;&lt;a href=&#34;#修改页脚&#34; class=&#34;headerlink&#34; title=&#34;修改页脚&#34;&gt;&lt;/a&gt;修改页脚&lt;/h4&gt;&lt;p&gt;下面是 A4 默认的页脚（从&lt;a href=&#34;https://ninojay.top/&#34;&gt;作者的个人站&lt;/a&gt;截图所得）&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://pan.moe/f/v4MC3/A4%E5%8E%9F%E5%A7%8B%E9%A1%B5%E8%84%9A1.png&#34; class=&#34;gallery-item&#34; style=&#34;box-shadow: none;&#34;&gt; &lt;img src=&#34;https://pan.moe/f/v4MC3/A4%E5%8E%9F%E5%A7%8B%E9%A1%B5%E8%84%9A1.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://pan.moe/f/bqPS2/A4%E5%8E%9F%E5%A7%8B%E9%A1%B5%E8%84%9A2.png&#34; class=&#34;gallery-item&#34; style=&#34;box-shadow: none;&#34;&gt; &lt;img src=&#34;https://pan.moe/f/bqPS2/A4%E5%8E%9F%E5%A7%8B%E9%A1%B5%E8%84%9A2.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;如果需要修改页脚，在&lt;a href=&#34;https://github.com/HiNinoJay/hexo-theme-A4/blob/main/layout/_partial/footer.ejs&#34;&gt;这个文件&lt;/a&gt;里找到对应的地方修改即可，记得善用 hexo s 进行调试。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;(The end)&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt; ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">https://s.karlbaey.top/shorts/repair-A4/</guid>
             <title>修复 A4 主题记录</title>
@@ -24,12 +60,8 @@
 &lt;p&gt;一开始我的确是以根目录作为首页的，但在我写完第一篇小作品并发表后，问题就诞生了。&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;文件架构：&lt;/p&gt;
-&lt;pre class=&#34;line-numbers language-language-txt&#34;&gt;&lt;code class=&#34;language-language-txt&#34;&gt;
-source/
-  |
-  +--...
-  +--index.md
-&lt;span aria-hidden=&#34;true&#34; class=&#34;line-numbers-rows&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;figure class=&#34;highlight txt&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;code class=&#34;hljs txt&#34;&gt;&lt;br&gt;source/&lt;br&gt;  |&lt;br&gt;  +--...&lt;br&gt;  +--index.md&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
 &lt;p&gt;其中，（预计）&lt;code&gt;index.md&lt;/code&gt; 会被渲染成主页。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;a href=&#34;https://pan.moe/f/Xjas1/%E5%9D%8F%E6%8E%89%E7%9A%84s.karlbaey.top%E9%A6%96%E9%A1%B5.jpeg&#34; class=&#34;gallery-item&#34; style=&#34;box-shadow: none;&#34;&gt; &lt;img src=&#34;https://pan.moe/f/Xjas1/%E5%9D%8F%E6%8E%89%E7%9A%84s.karlbaey.top%E9%A6%96%E9%A1%B5.jpeg&#34;&gt;&lt;/a&gt;&lt;/p&gt;
@@ -40,9 +72,7 @@ source/
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;菜单链接调整&lt;/strong&gt;：如果你希望导航菜单中的 “首页” 指向你的自定义页面，需在主题配置中修改菜单链接为 &lt;code&gt;/&lt;/code&gt;。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;完全禁用默认首页&lt;/strong&gt;：如果不需要 Hexo 生成的博客列表首页，可卸载插件：&lt;/p&gt;
-&lt;pre class=&#34;line-numbers language-language-bash&#34;&gt;&lt;code class=&#34;language-language-bash&#34;&gt;npm uninstall hexo-generator-index --save
-&lt;span aria-hidden=&#34;true&#34; class=&#34;line-numbers-rows&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;/li&gt;
+  &lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;code class=&#34;hljs bash&#34;&gt;npm uninstall hexo-generator-index --save&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;按此配置后，Hexo 会完全保留你的自定义 &lt;code&gt;index.html&lt;/code&gt; 并跳过渲染，确保它直接出现在网站根目录。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://chat.deepseek.com/a/chat/s/6d06260e-8116-4f87-92d6-fcc01f1972d4&#34;&gt;原对话链接🔗&lt;/a&gt;&lt;/p&gt;
