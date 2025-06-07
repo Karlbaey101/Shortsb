@@ -5,14 +5,28 @@
         <link>https://s.karlbaey.top</link>
         <description></description>
         <language>zh-CN</language>
-        <pubDate>Mon, 02 Jun 2025 15:35:30 +0800</pubDate>
-        <lastBuildDate>Mon, 02 Jun 2025 15:35:30 +0800</lastBuildDate>
+        <pubDate>Sun, 08 Jun 2025 01:33:54 +0800</pubDate>
+        <lastBuildDate>Sun, 08 Jun 2025 01:33:54 +0800</lastBuildDate>
         <category>Java</category>
         <category>Python</category>
         <category>Hexo</category>
         <category>AI</category>
         <category>图图</category>
         <category>C++</category>
+        <item>
+            <guid isPermalink="true">https://s.karlbaey.top/shorts/haku-from-zero-to-everything/</guid>
+            <title>做了个 GitHub Issues 命令行工具</title>
+            <link>https://s.karlbaey.top/shorts/haku-from-zero-to-everything/</link>
+            <category>Python</category>
+            <pubDate>Sun, 08 Jun 2025 01:33:54 +0800</pubDate>
+            <description><![CDATA[ &lt;link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&#34;&gt;&lt;div class=&#34;.article-gallery&#34;&gt;&lt;p&gt;闲话休叙，先贴上 GitHub 地址。&lt;a href=&#34;https://github.com/karlbaey101/haku&#34;&gt;Karlbaey101&amp;#x2F;Haku: A small and simple CLI based on Python3, and you can use this to write you notes easily. 一个基于 Python3 的命令行工具，你可以使用它方便地写笔记！&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://gcore.jsdelivr.net/gh/Karlbaey101/Haku@master/README/HAKU.png&#34; class=&#34;gallery-item&#34; style=&#34;box-shadow: none;&#34;&gt; &lt;img src=&#34;https://gcore.jsdelivr.net/gh/Karlbaey101/Haku@master/README/HAKU.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;因为在 README.md 上已经把怎么用写的很清楚了，就在这里写一些设计思路吧。&lt;/p&gt;
+&lt;p&gt;一开始本来是打算用 C++ 写的，但是 C++ 我实在苦手，并且我弄了两天，为了配置环境和装编译器就弄得我气喘吁吁。所以最后放弃了，用回了我最最亲切的 Python3。这更加证明了卡尔白是 Python3 孝子。&lt;/p&gt;
+&lt;p&gt;后来发现 Python3 居然内置了 argparse 模块用来编写命令行程序，开心得不行。编写工作没费多长时间，最后用 PyInstaller 打包成单个的 .exe 文件，就把全部的工程文件都上传 GitHub 了。&lt;/p&gt;
+&lt;p&gt;Haku 的 logo 也设计好了，就像上面摆的那样。Haku 取了日文的“&lt;ruby&gt;白&lt;rp&gt;(&lt;/rp&gt;&lt;rt&gt;はく&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;”，毕竟所谓卡尔白嘛😋&lt;/p&gt;
+&lt;/div&gt; ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">https://s.karlbaey.top/shorts/Java-is-so-hard/</guid>
             <title>Java好难</title>

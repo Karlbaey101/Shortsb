@@ -5,6 +5,16 @@
     "home_page_url": "https://s.karlbaey.top",
     "items": [
         {
+            "id": "https://s.karlbaey.top/shorts/haku-from-zero-to-everything/",
+            "url": "https://s.karlbaey.top/shorts/haku-from-zero-to-everything/",
+            "title": "做了个 GitHub Issues 命令行工具",
+            "date_published": "2025-06-07T17:33:54.000Z",
+            "content_html": "<link rel=\"stylesheet\" type=\"text/css\" href=\"https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css\"><div class=\".article-gallery\"><p>闲话休叙，先贴上 GitHub 地址。<a href=\"https://github.com/karlbaey101/haku\">Karlbaey101&#x2F;Haku: A small and simple CLI based on Python3, and you can use this to write you notes easily. 一个基于 Python3 的命令行工具，你可以使用它方便地写笔记！</a></p>\n<p><a href=\"https://gcore.jsdelivr.net/gh/Karlbaey101/Haku@master/README/HAKU.png\" class=\"gallery-item\" style=\"box-shadow: none;\"> <img src=\"https://gcore.jsdelivr.net/gh/Karlbaey101/Haku@master/README/HAKU.png\"></a></p>\n<p>因为在 README.md 上已经把怎么用写的很清楚了，就在这里写一些设计思路吧。</p>\n<p>一开始本来是打算用 C++ 写的，但是 C++ 我实在苦手，并且我弄了两天，为了配置环境和装编译器就弄得我气喘吁吁。所以最后放弃了，用回了我最最亲切的 Python3。这更加证明了卡尔白是 Python3 孝子。</p>\n<p>后来发现 Python3 居然内置了 argparse 模块用来编写命令行程序，开心得不行。编写工作没费多长时间，最后用 PyInstaller 打包成单个的 .exe 文件，就把全部的工程文件都上传 GitHub 了。</p>\n<p>Haku 的 logo 也设计好了，就像上面摆的那样。Haku 取了日文的“<ruby>白<rp>(</rp><rt>はく</rt><rp>)</rp></ruby>”，毕竟所谓卡尔白嘛😋</p>\n</div>",
+            "tags": [
+                "Python"
+            ]
+        },
+        {
             "id": "https://s.karlbaey.top/shorts/Java-is-so-hard/",
             "url": "https://s.karlbaey.top/shorts/Java-is-so-hard/",
             "title": "Java好难",
